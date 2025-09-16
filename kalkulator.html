@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Kalkulator Sederhana</h2>
+        <input type="number" id="angka1" placeholder="Angka 1">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="angka2" placeholder="Angka 2">
+        <button onclick="hitung()">Hitung</button>
+        
+        <div id="hasil"></div>
+        
+        <button onclick="window.location.href='home.html'" class="back-btn">Kembali</button>
+
+        <script src="lat5.js"></script>
+    </div>
+</body>
+</html>

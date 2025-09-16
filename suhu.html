@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu</title>
+    <link rel="stylesheet" href="suhu.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Kalkulator Konversi Suhu</h2>
+        <input type="number" id="inputSuhu" placeholder="Masukkan suhu">
+        <select id="dari">
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+            <option value="R">Reamur</option>
+        </select>
+        <select id="ke">
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+            <option value="R">Reamur</option>
+        </select>
+        <button onclick="konversi()">Konversi</button>
+        
+        <div id="hasil"></div>
+
+        <button onclick="window.location.href='home.html'" class="back-btn">Kembali</button>
+
+        
+        <script src="suhu.js"></script>
+    </div>
+    
+</body>
+</html>

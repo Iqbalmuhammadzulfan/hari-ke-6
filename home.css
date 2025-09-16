@@ -1,0 +1,72 @@
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #2c3e50;
+        padding: 15px 30px;
+    }
+    .navbar h1 {
+        color: #ecf0f1;
+        margin: 0;
+        font-size: 20px;
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-links li {
+        margin-left: 20px;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: #ecf0f1;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .nav-links a:hover {
+        color: #1abc9c;
+    }
+
+    /* Hero section */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        text-align: center;
+    }
+    .hero h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #2c3e50;
+    }
+    .hero p {
+        font-size: 18px;
+        color: #555;
+        max-width: 600px;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center; /* biar di tengah */
+        gap: 15px;               /* jarak antar tombol */
+        margin-top: 20px;
+    }   
+    .btn {
+        margin-top: 20px;
+        padding: 12px 25px;
+        background: #1abc9c;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .btn:hover {
+        background: #16a085;
+    }
+
